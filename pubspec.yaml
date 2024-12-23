@@ -1,0 +1,22 @@
+name: photo_gallery_app
+description: A simple photo gallery app with notes.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.8.7+4
+  path_provider: ^2.0.13
+  sqflite: ^2.2.0
+  shared_preferences: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
